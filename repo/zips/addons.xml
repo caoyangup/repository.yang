@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.yang" name="Yang's Kodi Repository" version="3.99.0" provider-name="caoyangup">
+    <extension point="xbmc.addon.repository" name="Yang's Kodi Repository">
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/caoyangup/repository.yang/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/caoyangup/repository.yang/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/caoyangup/repository.yang/master/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Yang's Kodi Repository</summary>
+        <description>Custom repository containing modified Jellyfin for Kodi and Arctic Fuse 3 skin with search improvements.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
